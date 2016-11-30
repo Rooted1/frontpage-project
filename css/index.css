@@ -1,0 +1,61 @@
+/*body element with a background image, which is fixed to the page*/
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/05/00/10/laptop-1023524_960_720.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#head1 {
+    padding: 150px;
+}
+
+/*making the links hoverable*/
+li a:hover {
+    background-color: gray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    width: 60px;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*formatting the div that contains the homepage text*/
+div {
+  color: #00ff00;
+    text-align: center;
+}
+
+
+/*an id for the div that contains the see more buttons*/
+#btn {
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 10px;
+    
+}
+
+/*formatting the footer*/
+footer {
+    margin-top: 200px;
+    text-align: center;
+}
