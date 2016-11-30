@@ -1,6 +1,6 @@
 /*body element with a background image, which is fixed to the page*/
 body {
-    background-image: url(https://cdn.pixabay.com/photo/2015/11/05/00/10/laptop-1023524_960_720.jpg);
+    background-image: url(http://7606-presscdn-0-74.pagely.netdna-cdn.com/wp-content/uploads/2016/03/Dubai-Photos-Images-Travel-Tourist-Images-Pictures-800x600.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -38,8 +38,9 @@ li a {
 
 /*formatting the div that contains the homepage text*/
 div {
-  color: #00ff00;
+    color: white;
     text-align: center;
+    font-family: monospace;
 }
 
 
@@ -58,4 +59,5 @@ div {
 footer {
     margin-top: 200px;
     text-align: center;
+    color: #ff9999;
 }
